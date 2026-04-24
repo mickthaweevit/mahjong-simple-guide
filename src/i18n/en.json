@@ -1,0 +1,405 @@
+{
+  "nav": {
+    "gameSetup": "Game Setup",
+    "tileIntroduction": "Know Your Tiles",
+    "gameRotation": "Game Rotation",
+    "gameplayFlow": "How to Play",
+    "winningStructure": "Winning Structure",
+    "handScoring": "Hand Scoring",
+    "flowersSeasons": "Flowers & Seasons",
+    "payout": "Payout",
+    "baoPenalty": "Bao Penalty",
+    "specialRules": "Special Rules",
+    "handSimulation": "Hand Simulation",
+    "ariaLabel": "Main navigation",
+    "languageSwitcherLabel": "Switch language"
+  },
+  "search": {
+    "placeholder": "Search scoring entries...",
+    "ariaLabel": "Search scoring entries",
+    "noResults": "No matching entries found."
+  },
+  "sections": {
+    "gameSetup": {
+      "heading": "Game Setup",
+      "choosingSeatsTitle": "Choosing Seats",
+      "choosingSeats": "Before the game begins, each player is assigned a wind position: East, South, West, or North. The East player is the first dealer. A common way to decide is to roll dice — highest roll gets East, second-highest gets South, and so on.",
+      "choosingSeatsBeginner": "Everyone picks a seat by rolling dice or drawing wind tiles. The person who gets East goes first and is the dealer. Don't worry about the wind names too much — they're just labels for the four seats.",
+      "buildingWallTitle": "Building the Wall",
+      "buildingWall": "All 144 tiles are shuffled face-down on the table. Each player then stacks 18 tiles in a row, two tiles high, forming a wall of 36 tiles in front of them. The four walls are pushed together to form a square.",
+      "buildingWallBeginner": "Everyone mixes the tiles face-down on the table (this is the fun noisy part). Then each player lines up 18 stacks of 2 tiles in front of them. Push the four rows together to make a square — this is the Wall you'll draw tiles from.",
+      "dealingTitle": "Dealing Tiles",
+      "dealing": "The dealer rolls the dice to determine where to break the wall. Starting from that point, each player takes turns picking up 4 tiles at a time until everyone has 12. Then each player draws 1 more tile for a starting hand of 13. The dealer draws an extra 14th tile to begin the first turn.",
+      "dealingBeginner": "The dealer rolls dice to pick a spot in the wall to start dealing from. Everyone takes turns grabbing tiles — 4 at a time — until you each have 13 tiles. The dealer gets one extra tile (14 total) because they go first."
+    },
+    "tileIntroduction": {
+      "heading": "Know Your Tiles",
+      "overview": "A standard Mahjong set has 144 tiles. They are divided into three categories: Suited tiles (108), Honor tiles (28), and Bonus tiles (8). Each suited and honor tile has 4 identical copies in the set.",
+      "overviewBeginner": "Think of it like a deck of cards, but with tiles instead. There are 144 tiles total. Most tiles come in groups of 4 identical copies. You'll use these tiles to build sets and try to complete a winning hand.",
+      "suitsTitle": "Suited Tiles (3 Suits × 9 Numbers × 4 Copies = 108)",
+      "suits": "There are three suits, each numbered 1 through 9: Characters (萬), Dots (筒), and Bamboo (索). These are the tiles you'll use most often to form Chows (runs) and Pungs (triplets).",
+      "suitsBeginner": "Imagine three different 'colors' of tiles, each going from 1 to 9. Characters have Chinese number symbols on top, Dots have circles, and Bamboo have sticks. You'll be making groups of three from these tiles — either three in a row (like 4-5-6) or three of the same (like 7-7-7).",
+      "honorsTitle": "Honor Tiles (Winds + Dragons = 28)",
+      "honors": "There are 4 Wind tiles (East, South, West, North) and 3 Dragon tiles (Red, Green, White). Each has 4 copies. Honor tiles cannot form Chows — they can only be used in Pungs (three identical) or as a Pair.",
+      "honorsBeginner": "These are special tiles that don't have numbers. Winds represent the four directions, and Dragons come in three colors. You can only use them in groups of three identical tiles (Pungs) — you can't make a run with them since they have no number sequence.",
+      "bonusTitle": "Bonus Tiles (4 Flowers + 4 Seasons = 8)",
+      "bonus": "There are 4 Flower tiles and 4 Season tiles, each unique (only 1 copy each). When you draw a bonus tile, set it aside immediately and draw a replacement tile from the wall. Bonus tiles add extra Fan to your score if you win.",
+      "bonusBeginner": "Bonus tiles are freebies. When you draw one, put it to the side and take another tile from the wall. They don't go in your hand, but if you win, each one adds a bonus point to your score. Lucky draws!"
+    },
+    "gameplayFlow": {
+      "heading": "How to Play",
+      "turnBasicsTitle": "Your Turn",
+      "turnBasics": "On your turn, draw 1 tile from the wall and add it to your hand. Then discard 1 tile face-up to the center. Your hand should always have 13 tiles (not counting bonus tiles). Play continues counter-clockwise around the table.",
+      "turnBasicsBeginner": "Each turn is simple: pick up one tile, then throw away one tile. You always keep 13 tiles in your hand. Keep doing this around the table until someone completes a winning hand of 14 tiles.",
+      "claimingTitle": "Claiming a Discard",
+      "claiming": "When another player discards a tile, you may claim it to complete a Pung (3 identical tiles), a Kong (4 identical tiles), or to win. You can only claim a Chow (3 in a row) from the player immediately before you. When you claim a tile, you must reveal the completed set face-up on the table.",
+      "claimingBeginner": "If someone throws away a tile you need, you can shout out and take it — but only for specific reasons: to make a triplet (Pung), four-of-a-kind (Kong), or to win. For a run of three (Chow), you can only take from the player right before you. When you claim a tile, you show that group of tiles face-up so everyone can see it.",
+      "claimPriorityTitle": "Claim Priority",
+      "claimPriority": "When multiple players want the same discarded tile, priority goes: Win > Pung/Kong > Chow. A player declaring a win always gets the tile first. If no one wins, a Pung or Kong claim beats a Chow claim.",
+      "claimPriorityBeginner": "If two people want the same tile, winning always comes first. After that, making a triplet beats making a run. Think of it as: the bigger the move, the higher the priority.",
+      "drawTitle": "Wall Exhaustion (Draw)",
+      "draw": "If all tiles in the wall are drawn and no one has won, the hand ends in a draw. No one pays anyone. The dealer stays if it's a draw, and the same round is replayed.",
+      "drawBeginner": "Sometimes nobody wins before the tiles run out. That's a draw — no one pays, no one scores. The dealer keeps their seat and you play the hand again."
+    },
+    "winningStructure": {
+      "heading": "Introduction & Winning Structure",
+      "mokExplanation": "The Minimum Fan (Mok) required to declare a win is agreed upon by the group before each game session. If your hand does not meet the Mok threshold, you cannot win even if your tiles form a valid structure.",
+      "mokBeginner": "Before you start playing, everyone at the table agrees on a minimum score needed to win. This is called the Mok. If your hand doesn't reach that minimum, you can't declare a win.",
+      "standardHand": "A Standard Hand consists of 14 tiles arranged as 4 Sets + 1 Pair. Each Set can be a Chow (a run of 3 consecutive numbered tiles in the same suit) or a Pung (3 identical tiles). The Pair is 2 identical tiles, also called the Eyes.",
+      "standardHandBeginner": "A winning hand has 14 tiles. You need four groups of three tiles (called Sets) plus one pair of matching tiles (called the Eyes). Your groups can be either three-in-a-row of the same suit, or three identical tiles.",
+      "sevenPairs": "Seven Pairs is a special winning hand consisting of 7 different pairs — 14 tiles total, with no Sets required.",
+      "sevenPairsBeginner": "Instead of the usual four groups plus a pair, you collect seven different pairs of matching tiles. No runs or triplets needed — just seven pairs.",
+      "thirteenOrphans": "Thirteen Orphans is a special winning hand containing one of each Terminal tile (1 and 9 of each suit) and one of each Honor tile (all four Winds and all three Dragons), plus one extra tile to form a pair. That is 13 unique tiles plus one duplicate.",
+      "thirteenOrphansBeginner": "You collect one of every 'extreme' tile in the game — the 1 and 9 from each of the three suits, plus all four Wind tiles and all three Dragon tiles. Then you need one extra copy of any of those tiles to make a pair. It is very rare."
+    },
+    "handSimulation": {
+      "heading": "Hand Simulation",
+      "tilePicker": "Tile Picker",
+      "yourHand": "Your Hand",
+      "emptyHand": "Select tiles above to build your hand",
+      "removeTile": "Remove",
+      "selfDraw": "Self-Draw Win?",
+      "clearHand": "Clear Hand",
+      "bonusTiles": "Bonus Tiles",
+      "flower": "Flower",
+      "season": "Season",
+      "roundWind": "Round Wind",
+      "seatWind": "Seat Wind",
+      "windEast": "East",
+      "windSouth": "South",
+      "windWest": "West",
+      "windNorth": "North",
+      "tableAriaLabel": "Mahjong table position selector",
+      "roundLabel": "Round",
+      "opponentSeat": "{wind} seat — click to mark as shooter",
+      "youLabel": "YOU",
+      "yourSeatWind": "Your Seat Wind",
+      "winMethod": "Win Method",
+      "selfDrawOption": "Self-Draw",
+      "discardWinOption": "Win by Discard",
+      "shooterHint": "Click an opponent on the table to mark who discarded the winning tile",
+      "shooter": "🎯 Shooter",
+      "scoreHeading": "Score Breakdown",
+      "handIncomplete": "Select 14 tiles to see your score",
+      "handInvalid": "This hand does not form a valid winning structure",
+      "matchedPatterns": "Matched Patterns",
+      "bonusFanLabel": "Bonus Tiles (Flowers/Seasons)",
+      "windFanLabel": "Wind Bonus",
+      "selfDrawFanLabel": "Self-Draw Bonus",
+      "totalFanLabel": "Total Fan",
+      "fanCapped": "(capped at 8)",
+      "payoutBreakdown": "Payout Breakdown",
+      "selectShooterWarning": "Select who discarded the winning tile on the table above",
+      "shooterTag": "Shooter",
+      "paysYou": "pays",
+      "totalReceived": "Total Received",
+      "payoutLabel": "Payout per Person",
+      "payoutSelfDraw": "Self-Draw: all 3 opponents pay {amount} each (total {total})",
+      "payoutDiscard": "Discard Win: shooter pays {shooterAmount}, other 2 pay {otherAmount} each (total {total})",
+      "fanUnit": "Fan",
+      "noPatterns": "No scoring patterns matched"
+    },
+    "handScoring": {
+      "heading": "Hand Scoring / Fan Counting",
+      "faanLimitNote": "8 Fan is the Limit in this ruleset. The payout formula is Base Rate × 2ⁿ where n is the number of Fan. At 8 Fan (Limit), the payout is 256 per person.",
+      "categoryBasic": "Basic Patterns",
+      "categorySuitBased": "Suit-Based Hands",
+      "categoryPungBased": "Pung & Terminal Hands",
+      "categoryDragon": "Dragon Hands",
+      "categoryWind": "Wind Hands",
+      "categoryHonor": "Honor Hands",
+      "categorySpecial": "Special Hands"
+    },
+    "flowersSeasons": {
+      "heading": "Flowers, Seasons & Biting",
+      "flowerScoring": "Every Flower or Season tile you possess adds +1 Fan each. For example, if you have 4 bonus tiles, that is +4 Fan added to your hand score.",
+      "flowerScoringBeginner": "Flower and Season tiles are bonus tiles. Each one you draw adds 1 point (Fan) to your score. They are set aside when drawn and a replacement tile is taken from the wall.",
+      "bitingRule": "The Biting (Kud) Rule: if you win and have a Season tile with a specific number (e.g., Season #1), and an opponent has the Flower tile with the same number (Flower #1), that opponent is 'Bitten'. The Bitten opponent must pay an additional 1 Fan penalty specifically to you.",
+      "bitingRuleBeginner": "When you win, check if any of your Season tile numbers match another player's Flower tile numbers. If they do, that player is 'Bitten' and owes you an extra penalty payment on top of the normal amount.",
+      "noFlowerBonusNote": "There is no bonus for winning with zero Flowers in this ruleset."
+    },
+    "payout": {
+      "heading": "Payout & The Exponential Rule",
+      "formulaExplanation": "The payout formula is Price = 1 × 2ⁿ, where n is the total Fan count. As Fan increase, the payout doubles each time — 1 Fan pays 2, 2 Fan pays 4, 3 Fan pays 8, and so on up to the Limit of 8 Fan (256).",
+      "dealerModifierNote": "In some house rules, the Dealer (East seat) pays and receives double. Check with your group whether the Dealer modifier is in effect for your session.",
+      "dealerModifierBeginner": "The Dealer is the player in the East seat. Some groups play with a rule where the Dealer always pays double when losing and receives double when winning. Ask your group before the game starts."
+    },
+    "baoPenalty": {
+      "heading": "Bao Penalty / Full Liability",
+      "explanation": "If you discard a tile that allows a player to complete a high-value hand that was already visibly forming on the table, you are liable for the entire table's losses. You must pay the sum of what all three losing players would have owed.",
+      "explanationBeginner": "If someone has most of a powerful hand showing on the table and you carelessly discard the tile they need to finish it, you have to pay for everyone. Instead of three players each paying the winner, you alone pay the total amount. Be very careful what you discard!",
+      "trigger": {
+        "fullOneSuit": {
+          "title": "Full One Suit",
+          "description": "Player has 3 sets of the same suit exposed. Discarding a tile that completes their Full One Suit triggers Bao."
+        },
+        "greatThreeDragons": {
+          "title": "Great Three Dragons",
+          "description": "Player has 2 Dragon sets exposed. Discarding a tile that completes their third Dragon set triggers Bao."
+        },
+        "greatFourWinds": {
+          "title": "Great Four Winds",
+          "description": "Player has 3 Wind sets exposed. Discarding a tile that completes their fourth Wind set triggers Bao."
+        },
+        "allPungs": {
+          "title": "All Pungs",
+          "description": "Player has 3 Pung (triplet) sets exposed. Discarding a tile that completes their All Pungs hand triggers Bao."
+        }
+      }
+    },
+    "specialRules": {
+      "heading": "Special Rules",
+      "kongDescription": "Having all 4 copies of the same tile allows you to declare Kong. Place them aside and draw a replacement tile from the back of the wall. A Kong often results in an immediate small bonus payment from all players (equivalent to a 1-Fan payout).",
+      "kongBeginner": "When you have all four copies of the same tile, you can declare 'Kong'. Set them aside and draw a replacement tile. You usually get a small bonus payment from all other players right away.",
+      "sacredDiscardDescription": "If you just discarded a tile, you cannot win on that same tile if someone else discards it immediately after. You must wait for your next turn to reset.",
+      "sacredDiscardBeginner": "If you just threw away a tile and another player discards the same tile right after, you cannot claim it to win. You have to wait until your next turn before you can win on that tile again."
+    },
+    "gameRotation": {
+      "heading": "Game Rotation",
+      "roundStructure": "One full game consists of 4 Rounds: East, South, West, and North. Each round continues until the dealer position has rotated through all players.",
+      "roundStructureBeginner": "A complete game has four rounds, named after the four wind directions. Each round has multiple hands played until every player has had a turn as the dealer.",
+      "dealerRotation": "The Dealer (East seat) stays if the dealer wins or the game is a draw. If the dealer loses, the dealer position rotates to the next player on the left.",
+      "dealerRotationBeginner": "The dealer keeps their position as long as they keep winning or the hand ends in a draw. Once the dealer loses, the next player to the left becomes the new dealer."
+    }
+  },
+  "scoring": {
+    "faanUnit": "fan",
+    "commonHand": {
+      "description": "All sets are Chows (runs of 3 consecutive numbers in the same suit), no Pungs.",
+      "beginner": "Your entire hand is made up of runs — three consecutive numbered tiles in the same suit. No matching sets of identical tiles."
+    },
+    "allPungs": {
+      "description": "All 4 sets are Pungs (triplets of identical tiles).",
+      "beginner": "Your whole hand is made up of matching sets of three identical tiles. You don't have any runs of consecutive numbers."
+    },
+    "mixedOneSuit": {
+      "description": "One numbered suit mixed with Honor tiles (Winds and/or Dragons).",
+      "beginner": "Pick one suit of numbered tiles and mix in some Wind or Dragon tiles. All your tiles must come from that one suit plus Honours."
+    },
+    "fullOneSuit": {
+      "description": "All 14 tiles are from the same numbered suit. No Winds or Dragons allowed.",
+      "beginner": "Every tile in your hand comes from the same suit — all Bamboo, all Characters, or all Dots. No Wind or Dragon tiles allowed. High risk but very high reward (2⁷ = 128)."
+    },
+    "dragonPung": {
+      "description": "Any set (Pung) of Red, Green, or White Dragon tiles.",
+      "beginner": "You have three matching Dragon tiles of the same colour. Each Dragon Pung adds 1 Fan to your hand. You can have multiple Dragon Pungs for multiple Fan.",
+      "notes": "+1 Fan per Dragon Pung set. Can stack multiple Dragon Pungs."
+    },
+    "smallThreeDragons": {
+      "description": "2 Dragon Pungs plus 1 Dragon Pair (the third Dragon as your Eyes).",
+      "beginner": "You have three-of-a-kind in two different Dragon colours, and a pair of the third Dragon colour as your Eyes."
+    },
+    "greatThreeDragons": {
+      "description": "3 Dragon Pungs — a Pung of all three Dragon tiles (Red, Green, and White). Scores the Limit (8 Fan).",
+      "beginner": "You collected three-of-a-kind in all three Dragon colours: Red, Green, and White. That's nine Dragon tiles in your hand. This scores the maximum limit."
+    },
+    "greatFourWinds": {
+      "description": "4 Wind Pungs — a Pung of all four Wind tiles (East, South, West, and North). Scores the Limit (8 Fan).",
+      "beginner": "You collected three-of-a-kind in all four Wind directions: East, South, West, and North. That's twelve Wind tiles in your hand, leaving room for just one pair. Extremely rare and scores the maximum limit."
+    },
+    "allGreen": {
+      "description": "Hand consists only of Green tiles: Bamboo 2, 3, 4, 6, 8 and Green Dragons. Scores the Limit.",
+      "beginner": "Every tile in your hand is a 'green' tile — Bamboo 2, 3, 4, 6, 8 or Green Dragon. This is extremely rare and scores the maximum limit."
+    },
+    "sevenPairs": {
+      "description": "A special hand consisting of 7 different pairs — 14 tiles total, with no Sets required.",
+      "beginner": "Instead of the usual four groups plus a pair, you collect seven different pairs of matching tiles. No runs or triplets needed — just seven pairs."
+    },
+    "thirteenOrphans": {
+      "description": "One of each Terminal tile (1 and 9 of each suit) and one of each Honor tile (all Winds and Dragons), plus one duplicate to form a pair. Scores the Limit (8 Fan).",
+      "beginner": "You collect one of every 'extreme' tile in the game — the 1 and 9 from each suit, plus all Wind and Dragon tiles. Then you need one extra copy of any of those to make a pair. Extremely rare and scores the maximum limit."
+    },
+    "smallFourWinds": {
+      "description": "Three Wind Pungs and a pair of the fourth Wind tile. The pair must be the remaining Wind.",
+      "beginner": "You collected three-of-a-kind in three different Wind directions, and a pair of the fourth Wind as your Eyes. Very hard to get and scores high."
+    },
+    "allHonors": {
+      "description": "All 14 tiles are Honor tiles — only Winds and Dragons, no suited tiles at all. Scores the Limit (8 Fan).",
+      "beginner": "Every tile in your hand is a Wind or Dragon tile. No numbered tiles at all. Extremely rare and scores the maximum limit."
+    },
+    "mixedTerminals": {
+      "description": "All tiles are Terminals (1s and 9s) mixed with Honor tiles (Winds and/or Dragons). No middle numbers (2–8) allowed.",
+      "beginner": "Your hand only has 1s, 9s, and Wind or Dragon tiles. No tiles numbered 2 through 8. Since you can't make runs with these, all your sets will be triplets."
+    },
+    "allTerminals": {
+      "description": "All 14 tiles are Terminal tiles — only 1s and 9s of the three suits. No Honor tiles. Scores the Limit (8 Fan).",
+      "beginner": "Every tile in your hand is a 1 or a 9. No Winds, no Dragons, no middle numbers. Extremely rare and scores the maximum limit."
+    },
+    "nineGates": {
+      "description": "A hand of a single suit containing the pattern 1112345678999 plus one extra tile of the same suit. Must be concealed. Scores the Limit (8 Fan).",
+      "beginner": "You need three 1s, one each of 2 through 8, and three 9s — all from the same suit — plus one more tile of that suit. It's called Nine Gates because any of the nine numbers can be the extra tile to complete the hand. Extremely rare."
+    }
+  },
+  "tileCaption": {
+    "suitsExample": "The three suits: Characters (萬), Dots (筒), and Bamboo (索) — each numbered 1 to 9",
+    "windsExample": "Wind tiles: East, South, West, North",
+    "dragonsExample": "Dragon tiles: Red, Green, White",
+    "chowExample": "Chow — 3 consecutive tiles in the same suit",
+    "pungExample": "Pung — 3 identical tiles",
+    "pairExample": "Pair (Eyes) — 2 identical tiles",
+    "standardHandExample": "Standard Hand: 4 Sets (Chow or Pung) + 1 Pair = 14 tiles",
+    "sevenPairsExample": "Seven Pairs: 7 different pairs = 14 tiles",
+    "thirteenOrphansExample": "Thirteen Orphans: one of each Terminal and Honor + one duplicate",
+    "kongExample": "Kong — all 4 copies of the same tile",
+    "baoFullOneSuit": "Danger: 3 exposed Bamboo sets — discarding Bamboo may trigger Bao",
+    "baoGreatDragons": "Danger: 2 exposed Dragon Pungs — discarding the 3rd Dragon triggers Bao",
+    "baoGreatWinds": "Danger: 3 exposed Wind Pungs — discarding the 4th Wind triggers Bao",
+    "baoAllPungs": "Danger: 3 exposed Pungs — discarding a tile that completes All Pungs triggers Bao"
+  },
+  "exampleHand": {
+    "label": "Example Hand",
+    "attribution": "Tile images: Cangjie6 / Wikimedia Commons (CC BY-SA 4.0)",
+    "commonHand": "Common Hand: four Chows (runs) and a pair — all sequences, no triplets",
+    "allPungs": "All Pungs: four Pungs (triplets) and a pair — no sequences at all",
+    "mixedOneSuit": "Mixed One Suit: Characters 1-9 with East Wind Pung and a Character pair",
+    "fullOneSuit": "Full One Suit: all 14 tiles are Bamboo — no Winds or Dragons",
+    "dragonPung": "Dragon Pung: a Red Dragon triplet with mixed suit Chows",
+    "smallThreeDragons": "Small Three Dragons: two Dragon Pungs plus a White Dragon pair as Eyes",
+    "greatThreeDragons": "Great Three Dragons: all three Dragon Pungs — Red, Green, and White",
+    "greatFourWinds": "Great Four Winds: all four Wind Pungs — East, South, West, and North",
+    "allGreen": "All Green: only green tiles — Bamboo 2, 3, 4, 6, 8 and Green Dragon",
+    "sevenPairs": "Seven Pairs: seven different pairs, no sets needed",
+    "thirteenOrphans": "Thirteen Orphans: one of each Terminal and Honor tile, plus one duplicate",
+    "smallFourWinds": "Small Four Winds: three Wind Pungs plus a North Wind pair as Eyes",
+    "allHonors": "All Honors: only Wind and Dragon tiles — no suited tiles at all",
+    "mixedTerminals": "Mixed Terminals: only 1s, 9s, and Honor tiles — no middle numbers",
+    "allTerminals": "All Terminals: only 1s and 9s — no Honors, no middle numbers",
+    "nineGates": "Nine Gates: 1112345678999 of Characters plus one extra 5"
+  },
+  "beginner": {
+    "label": "What this means"
+  },
+  "pointTable": {
+    "exponential": {
+      "title": "Payout Table (Base Rate × 2ⁿ)"
+    },
+    "faanRange": "Fan (n)",
+    "points": "Price per Person",
+    "minFaan": "Minimum Fan",
+    "maxFaan": "Maximum Fan (Limit)"
+  },
+  "payment": {
+    "selfDraw": {
+      "title": "Self-Draw (Zi Mo)",
+      "description": "When you win by drawing the completing tile yourself from the wall, you get +1 Fan bonus. All 3 other players must pay you the calculated price.",
+      "beginner": "You drew the winning tile yourself from the wall. You get an extra Fan as a bonus, and all three other players each pay you the full amount."
+    },
+    "winByDiscard": {
+      "title": "Win by Discard",
+      "description": "The player who discarded the winning tile (the Shooter) pays double the calculated price. The other two players pay the standard calculated price.",
+      "beginner": "If you win by taking someone else's discarded tile, that person (the Shooter) pays you double. The other two players still pay you the normal amount."
+    }
+  },
+  "example": {
+    "exponential": {
+      "basic": {
+        "title": "Payout Calculation Example",
+        "context": "A player wins with 5 Fan. Using the exponential payout formula: Base Rate × 2⁵.",
+        "step1": {
+          "desc": "Count the Fan from the winning hand.",
+          "calc": "All Pungs (3) + Dragon Pung (1) + Seat Flower (1) = 5 Fan"
+        },
+        "step2": {
+          "desc": "Apply the payout formula: Base Rate × 2ⁿ.",
+          "calc": "1 × 2⁵ = 32 per person"
+        },
+        "step3": {
+          "desc": "Determine who pays based on how the hand was won.",
+          "calc": "If Self-Draw: all 3 players pay 32 each (total 96). If by Discard: Shooter pays 64, other two pay 32 each (total 128)."
+        }
+      }
+    },
+    "selfDraw": {
+      "title": "Self-Draw — Payment Example",
+      "context": "South wins by Self-Draw with a Mixed One Suit (3 Fan) + Dragon Pung (1 Fan). Self-Draw adds +1 Fan bonus = 5 Fan total.",
+      "step1": {
+        "desc": "Count the base Fan from the winning hand.",
+        "calc": "Mixed One Suit (3) + Dragon Pung (1) = 4 Fan"
+      },
+      "step2": {
+        "desc": "Add the Self-Draw bonus.",
+        "calc": "4 + 1 (Self-Draw bonus) = 5 Fan → 2⁵ = 32 per person"
+      },
+      "step3": {
+        "desc": "All 3 other players pay the winner.",
+        "calc": "East, West, and North each pay South 32. South receives 32 × 3 = 96 total."
+      }
+    },
+    "winByDiscard": {
+      "title": "Win by Discard — Payment Example",
+      "context": "South wins by claiming West's discarded tile. The hand is All Pungs (3 Fan) + Dragon Pung (1 Fan) = 4 Fan.",
+      "step1": {
+        "desc": "Count the Fan from the winning hand.",
+        "calc": "All Pungs (3) + Dragon Pung (1) = 4 Fan"
+      },
+      "step2": {
+        "desc": "Apply the payout formula.",
+        "calc": "2⁴ = 16 per person (standard price)"
+      },
+      "step3": {
+        "desc": "The Shooter (West) pays double the standard price.",
+        "calc": "West pays South 16 × 2 = 32."
+      },
+      "step4": {
+        "desc": "The other two players pay the standard price.",
+        "calc": "East and North each pay South 16. South receives 32 + 16 + 16 = 64 total."
+      }
+    },
+    "biting": {
+      "title": "Biting (Kud) — Penalty Example",
+      "context": "South wins with 3 Fan. South has Season #1. East has Flower #1. East is 'Bitten' by South.",
+      "step1": {
+        "desc": "Calculate the normal payout.",
+        "calc": "3 Fan → 2³ = 8 per person"
+      },
+      "step2": {
+        "desc": "Identify the Biting match: South's Season #1 matches East's Flower #1.",
+        "calc": "East is Bitten — owes an additional 1 Fan penalty to South."
+      },
+      "step3": {
+        "desc": "Calculate East's total payment including the Biting penalty.",
+        "calc": "East pays 8 (normal) + 2 (Biting: 1 extra Fan → 2¹ = 2) = 10 total to South."
+      }
+    },
+    "bao": {
+      "title": "Bao Penalty — Full Liability Example",
+      "context": "East has 3 exposed Bamboo sets. North discards a Bamboo tile, letting East complete Full One Suit (7 Fan). North triggered Bao.",
+      "step1": {
+        "desc": "Calculate the standard payout for the winning hand.",
+        "calc": "Full One Suit = 7 Fan → 2⁷ = 128 per person"
+      },
+      "step2": {
+        "desc": "Determine what all three losers would normally owe.",
+        "calc": "South: 128, West: 128, North: 128 → Total: 384"
+      },
+      "step3": {
+        "desc": "Apply Bao: the liable player (North) pays the entire table's losses.",
+        "calc": "North pays 384 total to East. South and West pay nothing."
+      },
+      "step4": {
+        "desc": "Summary of the Bao penalty impact.",
+        "calc": "Without Bao, North would pay 128. With Bao, North pays 384 — three times the normal amount."
+      }
+    }
+  }
+}
